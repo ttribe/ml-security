@@ -86,7 +86,7 @@ ul {
 }
 
 .header__logo img {
-  height: 56px;
+  height: 80px;
   width: auto;
 }
 
@@ -808,6 +808,39 @@ ul {
 
 .contact-info__text p {
   color: var(--gray);
+}
+
+/* --- Service Area --- */
+.service-area {
+  padding: 64px 0;
+  background: var(--gray-light);
+  text-align: center;
+}
+
+.service-area__tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.service-area__tag {
+  display: inline-block;
+  padding: 10px 20px;
+  background: var(--white);
+  border: 1px solid #dde1e6;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  color: var(--navy);
+  font-weight: 500;
+  transition: all var(--transition);
+}
+
+.service-area__tag:hover {
+  background: var(--blue-light);
+  border-color: var(--blue);
+  color: var(--blue);
 }
 
 /* --- CTA Banner --- */
